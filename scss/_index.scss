@@ -7,21 +7,22 @@
   border-radius: 2rem;
   box-shadow: 0 0 1.5rem 0 rgb(0 0 0 / 50%);
   height: 100%;
+  a {
+    padding: 1rem 2rem;
+    background: #04b44c;
+    color: white;
+    width: 50%;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 auto;
+  }
+  img {
+    width: 100%;
+  }
 }
-.card img {
-  width: 100%;
-}
-.card a {
-  padding: 1rem 2rem;
-  background: #04b44c;
-  color: white;
-  width: 50%;
-  border-radius: 2rem;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-decoration: none;
-  margin: 0 auto;
-}
+
 /*Terminando Servicios index.html*/
 /*Empezando sección index.html*/
 .card-group {
@@ -37,22 +38,22 @@
   width: 95%;
   text-align: center;
   background-color: #04b44c;
-}
-.card_info h2 {
-  color: black;
-  font-size: 10rem;
-  font-weight: 700;
-  margin: 0.5rem;
-}
-.card_info h3 {
-  color: black;
-  font-size: 10rem;
-  font-weight: 700;
-  margin: 3.5rem;
-}
-.card_info .p {
-  font-size: 3rem;
-  font-weight: 600;
+  h2 {
+    color: black;
+    font-size: 10rem;
+    font-weight: 700;
+    margin: 0.5rem;
+  }
+  h3 {
+    color: black;
+    font-size: 10rem;
+    font-weight: 700;
+    margin: 3.5rem;
+  }
+  .p {
+    font-size: 3rem;
+    font-weight: 600;
+  }
 }
 @media (min-width: 768px) {
   .card-group {
@@ -60,27 +61,10 @@
     flex-direction: row;
   }
   .card_info {
-    padding: 3rem;
-    line-height: 2rem;
     width: 33.33%;
-    text-align: center;
-    background-color: #04b44c;
-  }
-  .card_info h2 {
-    color: black;
-    font-size: 10rem;
-    font-weight: 700;
-    margin: 1rem;
-  }
-  .card_info h3 {
-    color: black;
-    font-size: 10rem;
-    font-weight: 700;
-    margin: 3.5rem;
-  }
-  .card_info .p {
-    font-size: 3rem;
-    font-weight: 600;
+    h2 {
+      margin: 1rem;
+    }
   }
 }
 /*Terminando sección index.html*/
