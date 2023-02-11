@@ -1,0 +1,134 @@
+@media (min-width: 768px) {
+  .invert {
+    order: -1;
+  }
+  /*Empezando seccion ppc.html*/
+  .info-section {
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 0 10rem 0 rgb(0 0 0 / 15%);
+    padding: 1.7rem 1.2rem 1.2rem 1.2rem;
+    margin-top: 3rem;
+    border-radius: 1.6rem;
+  }
+  .info-section h3 {
+    width: 100%;
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+  .info-cards {
+    background-color: #04b44c;
+  }
+  .info-cards img {
+    width: auto;
+    height: 60rem;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  }
+  .col-md-2 img {
+    height: 100%;
+  }
+  .google-cards {
+    padding: 3.2rem 1.8rem 3.2rem 0;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 0 1.5rem 0 rgb(0 0 0 / 30%);
+    border-radius: 1.6rem;
+    margin: 2rem;
+    margin-bottom: 5rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+  }
+  .google-cards__section {
+    width: 33.33%;
+  }
+  .google-cards__item {
+    padding: 2rem;
+    text-align: left;
+  }
+  .google-cards img {
+    height: auto;
+    width: 25rem;
+  }
+  .google-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+/*Terminando section para mobile*/
+/*Empezando section para computadora*/
+.info-section {
+  width: 60%;
+  margin: 0 auto;
+  box-shadow: 0 0 10rem 0 rgb(0 0 0 / 15%);
+  padding: 1.7rem 1.2rem 1.2rem 1.2rem;
+  margin-top: 3rem;
+  border-radius: 1.6rem;
+}
+.info-section h3 {
+  width: 100%;
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+.info-cards {
+  background-color: #04b44c;
+}
+.info-cards img {
+  width: auto;
+  height: 60rem;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+.col-md-2 img {
+  height: 100%;
+}
+.google-cards {
+  padding: 3.2rem 1.8rem 3.2rem 0;
+  width: 50%;
+  text-align: center;
+  box-shadow: 0 0 1.5rem 0 rgb(0 0 0 / 30%);
+  border-radius: 1.6rem;
+  margin: 2rem;
+  margin-bottom: 5rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+.google-cards__section {
+  width: 33.33%;
+}
+.google-cards__item {
+  padding: 2rem;
+  text-align: left;
+}
+.google-cards img {
+  height: auto;
+  width: 25rem;
+}
+.google-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
