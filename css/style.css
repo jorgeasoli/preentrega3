@@ -102,12 +102,20 @@ body {
   .nav-toggle {
     display: none;
   }
+  .nav-menu-item {
+    font-size: 2rem;
+  }
 }
 /*Finalizando Navbar computadoras y tablets*/
 /*Empezando hero todas las páginas celular*/
 .hero {
   display: flex;
   flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+h1 {
+  font-weight: 700;
 }
 
 .hero__left {
@@ -116,7 +124,6 @@ body {
   width: 90%;
   margin: 0 auto;
 }
-
 .hero__left p {
   font-size: 2rem;
   line-height: 3rem;
@@ -128,7 +135,6 @@ body {
   width: 95%;
   margin: 0 auto;
 }
-
 .hero__right img {
   height: 35rem;
   width: 95%;
@@ -144,46 +150,25 @@ body {
   text-decoration: none;
 }
 
-.hero__right .image {
-  height: 45rem;
-  width: 100%;
-}
-
 /*Terminando Hero todas las paginas celular*/
 /*Empezando hero todas las páginas computadora*/
 @media (min-width: 768px) {
   .hero {
-    display: flex;
     flex-direction: row;
+    padding: 3rem 0;
+    margin: 2rem 0;
   }
   .hero__left {
-    padding: 2rem;
     padding-top: 0rem;
     margin: auto 0;
     width: 50%;
   }
-  .hero__left p {
-    font-size: 2rem;
-    line-height: 3rem;
-    margin-bottom: 5rem;
-  }
   .hero__right {
     width: 50%;
     margin: 0;
-    padding: 0rem;
   }
   .hero__right img {
-    height: 45rem;
-    width: 100%;
-  }
-  .button {
-    padding: 1rem 2rem;
-    background: #04b44c;
-    color: white;
-    border-radius: 2rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-decoration: none;
+    width: 95%;
   }
   .hero__right .image {
     height: 53rem;
@@ -206,68 +191,11 @@ footer {
     order: -1;
   }
   /*Empezando seccion ppc.html*/
-  .info-section {
-    width: 60%;
-    margin: 0 auto;
-    box-shadow: 0 0 10rem 0 rgba(0, 0, 0, 0.15);
-    padding: 1.7rem 1.2rem 1.2rem 1.2rem;
-    margin-top: 3rem;
-    border-radius: 1.6rem;
-  }
-  .info-section h3 {
-    width: 100%;
-    color: black;
-    font-size: 2rem;
-    font-weight: 700;
-    text-align: center;
-  }
-  .info-cards {
-    background-color: #04b44c;
-  }
-  .info-cards img {
-    width: auto;
-    height: 60rem;
-  }
   .flex {
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .material-symbols-outlined {
     font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-  }
-  .col-md-2 img {
-    height: 100%;
-  }
-  .google-cards {
-    padding: 3.2rem 1.8rem 3.2rem 0;
-    width: 50%;
-    text-align: center;
-    box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.3);
-    border-radius: 1.6rem;
-    margin: 2rem;
-    margin-bottom: 5rem;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    vertical-align: middle;
-  }
-  .google-cards__section {
-    width: 33.33%;
-  }
-  .google-cards__item {
-    padding: 2rem;
-    text-align: left;
-  }
-  .google-cards img {
-    height: auto;
-    width: 25rem;
-  }
-  .google-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
   }
 }
 /*Terminando section para mobile*/
@@ -280,7 +208,6 @@ footer {
   margin-top: 3rem;
   border-radius: 1.6rem;
 }
-
 .info-section h3 {
   width: 100%;
   color: black;
@@ -292,7 +219,6 @@ footer {
 .info-cards {
   background-color: #04b44c;
 }
-
 .info-cards img {
   width: auto;
   height: 60rem;
@@ -326,6 +252,10 @@ footer {
   align-items: center;
   vertical-align: middle;
 }
+.google-cards img {
+  height: auto;
+  width: 25rem;
+}
 
 .google-cards__section {
   width: 33.33%;
@@ -334,11 +264,6 @@ footer {
 .google-cards__item {
   padding: 2rem;
   text-align: left;
-}
-
-.google-cards img {
-  height: auto;
-  width: 25rem;
 }
 
 .google-section {
@@ -358,11 +283,6 @@ footer {
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.5);
   height: 100%;
 }
-
-.card img {
-  width: 100%;
-}
-
 .card a {
   padding: 1rem 2rem;
   background: #04b44c;
@@ -373,6 +293,9 @@ footer {
   font-weight: 700;
   text-decoration: none;
   margin: 0 auto;
+}
+.card img {
+  width: 100%;
 }
 
 /*Terminando Servicios index.html*/
@@ -392,21 +315,18 @@ footer {
   text-align: center;
   background-color: #04b44c;
 }
-
 .card_info h2 {
   color: black;
   font-size: 10rem;
   font-weight: 700;
   margin: 0.5rem;
 }
-
 .card_info h3 {
   color: black;
   font-size: 10rem;
   font-weight: 700;
   margin: 3.5rem;
 }
-
 .card_info .p {
   font-size: 3rem;
   font-weight: 600;
@@ -418,27 +338,10 @@ footer {
     flex-direction: row;
   }
   .card_info {
-    padding: 3rem;
-    line-height: 2rem;
     width: 33.33%;
-    text-align: center;
-    background-color: #04b44c;
   }
   .card_info h2 {
-    color: black;
-    font-size: 10rem;
-    font-weight: 700;
     margin: 1rem;
-  }
-  .card_info h3 {
-    color: black;
-    font-size: 10rem;
-    font-weight: 700;
-    margin: 3.5rem;
-  }
-  .card_info .p {
-    font-size: 3rem;
-    font-weight: 600;
   }
 }
 /*Terminando sección index.html*/
