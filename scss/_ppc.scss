@@ -75,3 +75,70 @@
   flex-direction: row;
   justify-content: center;
 }
+/*Tarjetas ppc celulares*/
+.ppc__card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0 0 1.5rem 0 rgb(0 0 0 / 60%);
+  border-radius: 1.6rem;
+  margin: 2rem;
+  margin-bottom: 5rem;
+  padding: 0;
+  .ppc__card__img {
+    width: 100%;
+    .img-fluid {
+      height: 25rem;
+    }
+  }
+  .ppc__card__text {
+    width: 90%;
+    margin: 0 auto;
+    h2 {
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    p {
+      font-size: 2rem;
+    }
+  }
+}
+/*Termina ppc de celulares*/
+
+/*Empieza ppc comptuadoras*/
+@media (min-width: 768px) {
+  .ppc__flex {
+    display: flex;
+    flex-direction: row;
+  }
+  .ppc__card {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    box-shadow: 0 0 1.5rem 0 rgb(0 0 0 / 60%);
+    border-radius: 1.6rem;
+    margin: 2rem;
+    margin-bottom: 5rem;
+    padding: 0;
+    width: 50%;
+    .ppc__card__img {
+      width: 50%;
+      .img-fluid {
+        height: auto;
+        width: 100%;
+      }
+    }
+    .ppc__card__text {
+      width: 50%;
+      padding: 1.5rem;
+      margin: auto 0;
+      h2 {
+        font-size: 2.9rem;
+      }
+      p {
+        font-size: 1.9rem;
+      }
+    }
+  }
+}
+/*Tarjetas PPC celulares*/
