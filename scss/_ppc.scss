@@ -139,3 +139,55 @@
   }
 }
 /*Tarjetas PPC celulares*/
+.list {
+  box-shadow: 0 0 1.5rem 0 rgb(0 0 0 / 60%);
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 1.5rem auto;
+  padding: 0 4rem;
+  h3 {
+    font-size: 7rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    color: #04b44c;
+  }
+  p {
+    padding: s0;
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+/*finaliza Lista celulares*/
+
+@media (min-width: 768px) {
+  .list {
+    box-shadow: 0 0 1.5rem 0 rgb(0 0 0 / 60%);
+    border-radius: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 1.5rem auto;
+    padding: 0 4rem;
+    h3 {
+      font-size: 7rem;
+      font-weight: 700;
+      padding: 1rem 1rem 1rem 0.5rem;
+      margin: 0;
+      color: #04b44c;
+    }
+    p {
+      padding: 1rem 2rem;
+      margin: 0;
+      font-size: 2rem;
+    }
+  }
+}
+/*Lista celulares*/

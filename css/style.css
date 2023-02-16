@@ -337,10 +337,63 @@ footer {
   }
 }
 /*Tarjetas PPC celulares*/
+.list {
+  box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.6);
+  border-radius: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 1.5rem auto;
+  padding: 0 4rem;
+}
+.list h3 {
+  font-size: 7rem;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  color: #04b44c;
+}
+.list p {
+  padding: s0;
+  margin: 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+/*finaliza Lista celulares*/
+@media (min-width: 768px) {
+  .list {
+    box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.6);
+    border-radius: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 1.5rem auto;
+    padding: 0 4rem;
+  }
+  .list h3 {
+    font-size: 7rem;
+    font-weight: 700;
+    padding: 1rem 1rem 1rem 0.5rem;
+    margin: 0;
+    color: #04b44c;
+  }
+  .list p {
+    padding: 1rem 2rem;
+    margin: 0;
+    font-size: 2rem;
+  }
+}
+/*Lista celulares*/
 /*Empezando sección servicios index.html*/
 .title {
   text-align: center;
   font-size: 4rem;
+  padding: 3rem 1rem;
 }
 
 .card {
