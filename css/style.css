@@ -287,9 +287,6 @@ footer {
 .ppc__card .ppc__card__img {
   width: 100%;
 }
-.ppc__card .ppc__card__img .img-fluid {
-  height: 25rem;
-}
 .ppc__card .ppc__card__text {
   width: 90%;
   margin: 0 auto;
