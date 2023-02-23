@@ -48,11 +48,12 @@ body {
   top: 8.4rem;
   width: 100%;
   padding: 2rem 0;
-  height: calc(100% - 10rem);
+  height: 100%;
   overflow-y: auto;
   left: 100%;
   transition: 0.3s;
   background-color: #04b44c;
+  z-index: 2;
 }
 
 .nav-menu-item {
